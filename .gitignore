@@ -1,6 +1,7 @@
 
 provider/
 restaurant/
+
 .env
 .env.production
 
@@ -11,7 +12,7 @@ restaurant/
 __pycache__
 db.sqlite3
 media
-
+serial.py
 # Backup files # 
 *.bak 
 

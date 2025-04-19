@@ -16,7 +16,7 @@ def main():
         config = Config(RepositoryEnv('.env.production'))
     else:
         # Use the default .env file (for development)
-        config = decouple_config
+        config = Config(RepositoryEnv('.env'))
 
     try:
         from django.core.management import execute_from_command_line
